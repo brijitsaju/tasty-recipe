@@ -1,0 +1,87 @@
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .card {
+      width: 10%;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .row{
+        flex-direction:column ;
+    }
+    .body{
+        flex-direction: column;
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  
+    .card-text {
+      font-size: 14px;
+    }
+  
+    .btn-outline-light {
+      font-size: 14px;
+    }
+  
+    .btn.btn-outline-light {
+      font-size: 14px;
+    }
+  
+    .modal-dialog {
+      max-width: 100%;
+      margin: 10px;
+    }
+  
+    .modal-body {
+      
+    }
+  
+    iframe {
+      width: 100%;
+      height: 200px; /* Set an appropriate height for your iframe */
+    }
+  
+    /* Additional styles for the collapsed comments section */
+    .mt-2.text-center {
+      margin-left: 10px;
+    }
+  
+    .btn.btn-outline-light {
+      margin-top: 10px;
+    }
+  
+    .card.body {
+      width: 100%;
+      height: 50px;
+      margin-left: 10px;
+      color: green;
+      font-weight: bolder;
+    }
+  
+    .ms-4 {
+      margin-left: 10px;
+    }
+  
+    .fa-solid.fa-angle-down {
+      margin-left: 4px;
+    }
+  }
+  
+  /* Additional styles for larger screens if needed */
+  @media (min-width: 769px) {
+    /* Add any specific styles for larger screens here */
+  }
+  
